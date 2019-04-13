@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    tools:context=".Registretion"
+    android:background="@drawable/bb">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:id="@+id/stf"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:hint="Name"
+        android:textColor="#000"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnstd1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp">
+    </Spinner>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:id="@+id/st"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:hint="Contact Number"
+        android:textColor="#000"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/stf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnstd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="177dp"
+        android:background="@layout/buttonshape"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="UserName"
+        android:textColor="#000"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/st"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText12"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="Password"
+        android:textColor="#000"
+        android:paddingLeft="0dp"
+        android:password="true"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
