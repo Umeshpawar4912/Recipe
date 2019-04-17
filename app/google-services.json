@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "144851889250",
+    "firebase_url": "https://cookr-af389.firebaseio.com",
+    "project_id": "cookr-af389",
+    "storage_bucket": "cookr-af389.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144851889250:android:2b7f4569383ae62b",
+        "android_client_info": {
+          "package_name": "pawar.umesh.cookr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144851889250-pnl6qg5lumip0675tqcufsf94rndbrfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pawar.umesh.cookr",
+            "certificate_hash": "45ed8c475b42485390767a714b11b2e495dfa347"
+          }
+        },
+        {
+          "client_id": "144851889250-700i79cmrko4c53ig3tbg0jq9thvf467.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2VPoifk08qNLVD7U0CYT5FJlBBWFtKeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144851889250-700i79cmrko4c53ig3tbg0jq9thvf467.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
